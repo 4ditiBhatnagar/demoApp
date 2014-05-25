@@ -22,7 +22,7 @@ public class Splash extends Activity{
 			{
 				e.printStackTrace();
 			}finally{
-				Intent openStartingPoint=new Intent("com.blackHat.demo.MAINACTIVITY");
+				Intent openStartingPoint=new Intent("com.blackHat.demo.MENU");
 				startActivity(openStartingPoint);
 			}
 			
