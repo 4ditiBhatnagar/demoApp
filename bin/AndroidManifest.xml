@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
 
     <application
         android:allowBackup="true"
@@ -56,6 +57,13 @@
             
         </activity>
 
+<activity
+            android:name=".Camera"
+            android:label="Camera Application" 
+            android:screenOrientation="portrait"
+            >
+            
+        </activity>
 
         </application>
 
